@@ -53,14 +53,21 @@
       <section class="flex justify-center mt-36">
         <div class="text-center space-y-8">
           <h1 class="text-4xl font-bold">Search your phone</h1>
-          <input
+          <input id="search-box"
             type="text"
-            placeholder="Type here"
+            placeholder="search phone"
             class="input input-bordered w-full max-w-xs"
           />
-          <button class="btn btn-primary">Search</button>
+          <button onclick="searchBtn()" class="btn btn-primary">Search</button>
         </div>
       </section>
+      <!-- phone container -->
+       <section>
+        <div id="phone-container" class="grid grid-cols-1 md:gird-cols-2 lg:grid-cols-3 gap-5 mt-10">
+
+        </div>
+       </section>
+
     </main>
 
     <script src="/js/phone.js"></script>
