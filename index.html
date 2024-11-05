@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phone Hunting</title>
     <!-- tailwind and daisyUi -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <a class="btn btn-ghost text-xl">Hot Gadgets</a>
+          </div>
+          <div class="">
+            <button
+              class="btn btn-primary px-6 bg-blue-700 border-none text-white"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </nav>
 
-</head>
-<body>
-    <h1>Phone Hunting</h1>
-
-
+      <section class="flex justify-center mt-10">
+        <div class="text-center space-y-4">
+          <h1 class="text-6xl font-extrabold">Apple Iphone 13 Pro Max</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humou.
+          </p>
+          <button
+            class="btn btn-primary px-4 bg-blue-700 border-none text-white"
+          >
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="flex flex-1"></div>
+      </section>
+    </header>
+    <main>
+      <!-- search section -->
+      <section class="flex justify-center mt-36">
+        <div class="text-center space-y-8">
+          <h1 class="text-4xl font-bold">Search your phone</h1>
+          <input
+            type="text"
+            placeholder="Type here"
+            class="input input-bordered w-full max-w-xs"
+          />
+          <button class="btn btn-primary">Search</button>
+        </div>
+      </section>
+    </main>
 
     <script src="/js/phone.js"></script>
-</body>
+  </body>
 </html>
